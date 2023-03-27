@@ -1,5 +1,6 @@
 {
   "expo": {
+    "plugins": ["sentry-expo"],
     "name": "sentry-demo",
     "slug": "sentry-demo",
     "version": "1.0.0",

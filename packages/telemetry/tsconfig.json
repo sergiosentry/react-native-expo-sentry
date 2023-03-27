@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* allow import React instead of import * as React */
+    "allowSyntheticDefaultImports": true,
+    /* Emit interop between CommonJS and ES modules */
+    "esModuleInterop": true,
+    /* Specify JSX code generation */
+    "jsx": "react",
+    /* Specify library files to be included in the compilation. */
+    "lib": ["ESNext", "DOM"],
+    /* Specify module code generation */
+    "module": "esnext",
+    /* Specify module resolution strategy */
+    "moduleResolution": "node",
+    /* Allow importing of json files */
+    "resolveJsonModule": true,
+    /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,
+    /* Generate corresponding .map files */
+    "sourceMap": true,
+    /* Enable all strict type-checking options */
+    "strict": true,
+    /* Specify ECMAScript target version */
+    "target": "es6",
+    /* Allow catch error type being unknown (used to be 'any') */
+    "useUnknownInCatchVariables": true
+  },
+  "exclude": ["dist", "node_modules", "**/__fixtures__", "**/__tests__", "**/*.spec.ts", "**/*.test.ts"]
+}
