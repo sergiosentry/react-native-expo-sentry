@@ -8,7 +8,6 @@ import { makeFetchTransport } from "@sentry/browser";
 const MOBILE_DSN = "https://56ba5be9646a44109a51c0aa7175d28f@o87286.ingest.sentry.io/4504176016293888";
 
 const SentryProvider = {
-  
   init: () => {
     console.log(Constants.executionEnvironment);
     Sentry.init({
@@ -16,7 +15,6 @@ const SentryProvider = {
       dsn: MOBILE_DSN,
       enableInExpoDevelopment: true,
       debug: true,
-      enableNative: true,
       transport: Constants.executionEnvironment == "storeClient" ? makeFetchTransport : undefined
     });
   },
