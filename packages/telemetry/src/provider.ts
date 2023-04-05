@@ -5,7 +5,7 @@ import { FeatureTag, Severity, TelemetryTags, TelemetryUser } from "./types";
 import  Constants from "expo-constants";
 import { makeFetchTransport } from "@sentry/browser";
 
-const MOBILE_DSN = "https://56ba5be9646a44109a51c0aa7175d28f@o87286.ingest.sentry.io/4504176016293888";
+const MOBILE_DSN = "{SENTRY_DSN}";
 
 const SentryProvider = {
   init: () => {
